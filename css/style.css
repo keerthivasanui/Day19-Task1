@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important;
+    height: 100vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.container{
+    background-color:#000000;
+    border-radius: 20px;
+    font-family: sans-serif;
+    height:60vh;
+    width:50vh !important;
+}
+.container .box{
+    display: grid;
+    grid-template-columns:1fr;
+    row-gap:10px;
+    margin-top:20px;
+    
+ 
+    
+}
+
+h1{
+    color:#ffffff !important;
+    text-align: center;
+    margin-top:10px !important;
+    font-weight: bolder;
+}
+select{
+
+    height: 40px;
+    font-size:20px;
+    margin:20px;
+    border-radius:10px;
+    background-color:rgb(0, 80, 83);
+    color: rgb(255, 255, 255);
+}
+input{
+    height:40px;
+    font-size:16px;
+    border-radius: 10px;
+    background-color:#ffffff;
+}
+.btn{
+    display: flex;
+    justify-content: center !important;
+}
+button{
+    width:30%;
+    height:40px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px !important;
+    cursor: pointer;
+    font-size: 16px !important;
+    margin-top:50px !important;
+    margin-left:30% !important;
+}
